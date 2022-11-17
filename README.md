@@ -10,10 +10,11 @@
   
 ## How to run the project
   1. Clone the repo and do npm install
-       $ git clone https://github.com/dheerajbisht362/script-node-csv-data-save.git
-       $ npm i
+       - $ git clone https://github.com/dheerajbisht362/script-node-csv-data-save.git
+       - $ npm i
   2. Transpile typescript files 
-       $ tsc -w
+       - $ tsc -w
   3. Start the scipt 
-       $ node dist/server "${Query Address}" {$PageSize}
+       - $ node dist/server ${Query Address} {$PageSize}
+       - Example $ node dist/server '500 W Madison St Chicago IL 60607' 50
   4. Stript will start and result will be stored in saved_data_from_api.csv
