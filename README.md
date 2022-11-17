@@ -15,6 +15,6 @@
   2. Transpile typescript files 
        - $ tsc -w
   3. Start the scipt 
-       - $ node dist/server ${Query Address} {$PageSize}
-       - Example $ node dist/server '500 W Madison St Chicago IL 60607' 50
+       - $ node dist/script ${Query Address} {$PageSize}
+       - Example $ node dist/script '500 W Madison St Chicago IL 60607' 50
   4. Stript will start and result will be stored in saved_data_from_api.csv
