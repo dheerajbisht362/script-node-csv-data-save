@@ -2,11 +2,11 @@
   "name": "csv-data-storage",
   "version": "1.0.0",
   "description": "Store data inside csv",
-  "main": "server.js",
+  "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node dist/server //Address\\ //PageSize\\",
-    "start:dev": "node dist/server '500 W Madison St Chicago IL 60607' 50"
+    "start": "node dist/script //Address\\ //PageSize\\",
+    "start:dev": "node dist/script '500 W Madison St Chicago IL 60607' 50"
   },
   "author": "",
   "license": "ISC",
