@@ -82,7 +82,7 @@ async function init() {
     ];
     const stringifier = (0, csv_1.stringify)({ header: true, columns: columns });
     // add row of data for each listing
-    apiResult.data.results.listings.forEach((listing, index) => {
+    apiResult.data.results.listings.forEach(listing => {
         // beginDate + daysToSkip = todaysDate
         const daysToSkip = helperClass.daysBehindTodayDate(new Date(listing.rateSummary.beginDate));
         let rentString = listing.rateSummary.rentNights || [];
